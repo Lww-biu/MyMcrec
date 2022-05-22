@@ -1,0 +1,322 @@
+(pytorch) D:\Fuck\Recommendation_System\Code>D:/Anaconda3/envs/pytorch/python.exe d:/Fuck/Recommendation_System/Code/ownResearch/myMcRec2/runMCRec.py
+[Setting] device: cuda
+[Setting] processes for evaluation 4 
+[Setting] latent_dim: 128
+[Setting] att_size: 128
+[Setting] learning_rate: 0.001000
+[Setting] regularization: 0.000100
+[Setting] train_batch_size: 128
+[Setting] test_batch_size: 32
+[Setting] negative_num: 4
+Read data from D:\Fuck\Recommendation_System\Code\ownResearch\myMcRec2/Data/Movielens/
+node type {'u': 0, 'm': 1, 'g': 2}
+max_user_id 943, max_item_id 1681, train ratings 80000
+test ratings 943, test negative rating lists 943, maximum test item number for one rating 1408
+load data 88.89 seconds
+Init: Item Pred: P@1 = 0.0750, R@1 = 0.0099, NDCG@1 = 0.0750, MRR@1 = 0.0099
+Init: Item Pred: P@5 = 0.0676, R@5 = 0.0420, NDCG@5 = 0.1857, MRR@5 = 0.0206
+Init: Item Pred: P@10 = 0.0646, R@10 = 0.0719, NDCG@10 = 0.2382, MRR@10 = 0.0245
+Evaluation Time: 95.51 seconds
+Epoch 0 Steps 625 Loss 0.355883 [63.45 seconds]
+Epoch 1 Steps 625 Loss 0.331457 [60.00 seconds]
+Epoch 2 Steps 625 Loss 0.328047 [59.61 seconds]
+Epoch 3 Steps 625 Loss 0.326851 [59.60 seconds]
+Epoch 4 Steps 625 Loss 0.325060 [59.53 seconds]
+Item Pred: P@1 = 0.6096, R@1 = 0.0623, NDCG@1 = 0.6096, MRR@1 = 0.0623
+Item Pred: P@5 = 0.5381, R@5 = 0.2594, NDCG@5 = 0.7961, MRR@5 = 0.1282
+Item Pred: P@10 = 0.4620, R@10 = 0.4089, NDCG@10 = 0.7944, MRR@10 = 0.1482
+Evaluation Time: 88.22 seconds
+Epoch 5 Steps 625 Loss 0.325076 [63.08 seconds]
+Epoch 6 Steps 625 Loss 0.319395 [60.31 seconds]
+Epoch 7 Steps 625 Loss 0.310237 [60.13 seconds]
+Epoch 8 Steps 625 Loss 0.305516 [59.68 seconds]
+Epoch 9 Steps 625 Loss 0.304705 [59.32 seconds]
+Item Pred: P@1 = 0.6483, R@1 = 0.0692, NDCG@1 = 0.6483, MRR@1 = 0.0692
+Item Pred: P@5 = 0.5505, R@5 = 0.2709, NDCG@5 = 0.8106, MRR@5 = 0.1355
+Item Pred: P@10 = 0.4680, R@10 = 0.4207, NDCG@10 = 0.8061, MRR@10 = 0.1555
+Evaluation Time: 85.49 seconds
+Epoch 10 Steps 625 Loss 0.303948 [62.39 seconds]
+Epoch 11 Steps 625 Loss 0.303353 [60.45 seconds]
+Epoch 12 Steps 625 Loss 0.303169 [61.34 seconds]
+Epoch 13 Steps 625 Loss 0.304202 [61.56 seconds]
+Epoch 14 Steps 625 Loss 0.302781 [61.32 seconds]
+Item Pred: P@1 = 0.7200, R@1 = 0.0726, NDCG@1 = 0.7200, MRR@1 = 0.0726
+Item Pred: P@5 = 0.6021, R@5 = 0.2842, NDCG@5 = 0.8539, MRR@5 = 0.1429
+Item Pred: P@10 = 0.4973, R@10 = 0.4286, NDCG@10 = 0.8427, MRR@10 = 0.1622
+Evaluation Time: 93.07 seconds
+Epoch 15 Steps 625 Loss 0.302324 [64.42 seconds]
+Epoch 16 Steps 625 Loss 0.302569 [60.21 seconds]
+Epoch 17 Steps 625 Loss 0.303188 [59.97 seconds]
+Epoch 18 Steps 625 Loss 0.301824 [59.79 seconds]
+Epoch 19 Steps 625 Loss 0.302896 [59.96 seconds]
+Item Pred: P@1 = 0.6472, R@1 = 0.0688, NDCG@1 = 0.6472, MRR@1 = 0.0688
+Item Pred: P@5 = 0.5542, R@5 = 0.2729, NDCG@5 = 0.8146, MRR@5 = 0.1366
+Item Pred: P@10 = 0.4671, R@10 = 0.4228, NDCG@10 = 0.8093, MRR@10 = 0.1565
+Evaluation Time: 88.12 seconds
+Epoch 20 Steps 625 Loss 0.302258 [63.36 seconds]
+Epoch 21 Steps 625 Loss 0.302524 [60.17 seconds]
+Epoch 22 Steps 625 Loss 0.302559 [59.96 seconds]
+Epoch 23 Steps 625 Loss 0.301401 [59.78 seconds]
+Epoch 24 Steps 625 Loss 0.299924 [59.50 seconds]
+Item Pred: P@1 = 0.6953, R@1 = 0.0729, NDCG@1 = 0.6953, MRR@1 = 0.0729
+Item Pred: P@5 = 0.5851, R@5 = 0.2825, NDCG@5 = 0.8429, MRR@5 = 0.1429
+Item Pred: P@10 = 0.4939, R@10 = 0.4340, NDCG@10 = 0.8330, MRR@10 = 0.1632
+Evaluation Time: 85.47 seconds
+Epoch 25 Steps 625 Loss 0.299186 [62.71 seconds]
+Epoch 26 Steps 625 Loss 0.298202 [60.63 seconds]
+Epoch 27 Steps 625 Loss 0.298399 [61.76 seconds]
+Epoch 28 Steps 625 Loss 0.297695 [61.76 seconds]
+Epoch 29 Steps 625 Loss 0.298068 [61.64 seconds]
+Item Pred: P@1 = 0.7399, R@1 = 0.0752, NDCG@1 = 0.7399, MRR@1 = 0.0752
+Item Pred: P@5 = 0.6159, R@5 = 0.2914, NDCG@5 = 0.8623, MRR@5 = 0.1476
+Item Pred: P@10 = 0.5088, R@10 = 0.4436, NDCG@10 = 0.8506, MRR@10 = 0.1678
+Evaluation Time: 90.19 seconds
+Total Time 2544.51 seconds, Train Time 1829.49 seconds, Evaluation Time 626.07 seconds
+Best Results for Item Pred: P@1 = 0.7399, R@1 = 0.0752, NDCG@1 = 0.7399, MRR@1 = 0.0752
+Best Results for Item Pred: P@5 = 0.6159, R@5 = 0.2914, NDCG@5 = 0.8623, MRR@5 = 0.1476
+Best Results for Item Pred: P@10 = 0.5088, R@10 = 0.4436, NDCG@10 = 0.8506, MRR@10 = 0.1678
+
+
+
+
+全采样
+(pytorch) D:\Fuck\Recommendation_System\Code>D:/Anaconda3/envs/pytorch/python.exe d:/Fuck/Recommendation_System/Code/ownResearch/myMcRec2/runMCRec.py
+[Setting] device: cuda
+[Setting] processes for evaluation 4
+[Setting] latent_dim: 128
+[Setting] att_size: 128
+[Setting] learning_rate: 0.001000
+[Setting] regularization: 0.000100
+[Setting] train_batch_size: 128
+[Setting] test_batch_size: 32
+[Setting] negative_num: 4
+Read data from D:\Fuck\Recommendation_System\Code\ownResearch\myMcRec2/Data/Movielens/
+node type {'g': 0, 'u': 1, 'm': 2}
+max_user_id 943, max_item_id 1681, train ratings 80000
+test ratings 943, test negative rating lists 943, maximum test item number for one rating 1666
+load data 91.83 seconds
+Init: Item Pred: P@1 = 0.0272, R@1 = 0.0025, NDCG@1 = 0.0272, MRR@1 = 0.0025
+Init: Item Pred: P@5 = 0.0298, R@5 = 0.0115, NDCG@5 = 0.0805, MRR@5 = 0.0053
+Init: Item Pred: P@10 = 0.0306, R@10 = 0.0222, NDCG@10 = 0.1171, MRR@10 = 0.0066
+Evaluation Time: 158.86 seconds
+Epoch 0 Steps 625 Loss 0.344249 [72.81 seconds]
+Epoch 1 Steps 625 Loss 0.312846 [63.00 seconds]
+Epoch 2 Steps 625 Loss 0.307728 [63.61 seconds]
+Epoch 3 Steps 625 Loss 0.302744 [64.69 seconds]
+Epoch 4 Steps 625 Loss 0.300695 [65.78 seconds]
+Item Pred: P@1 = 0.3267, R@1 = 0.0247, NDCG@1 = 0.3267, MRR@1 = 0.0247
+Item Pred: P@5 = 0.2810, R@5 = 0.0965, NDCG@5 = 0.5305, MRR@5 = 0.0480
+Item Pred: P@10 = 0.2458, R@10 = 0.1630, NDCG@10 = 0.5608, MRR@10 = 0.0567
+Evaluation Time: 156.23 seconds
+Epoch 5 Steps 625 Loss 0.296971 [66.44 seconds]
+Epoch 6 Steps 625 Loss 0.295390 [62.06 seconds]
+Epoch 7 Steps 625 Loss 0.293369 [62.02 seconds]
+Epoch 8 Steps 625 Loss 0.291801 [61.99 seconds]
+Epoch 9 Steps 625 Loss 0.290183 [62.62 seconds]
+Item Pred: P@1 = 0.3249, R@1 = 0.0240, NDCG@1 = 0.3249, MRR@1 = 0.0240
+Item Pred: P@5 = 0.2845, R@5 = 0.0922, NDCG@5 = 0.5202, MRR@5 = 0.0466
+Item Pred: P@10 = 0.2597, R@10 = 0.1635, NDCG@10 = 0.5557, MRR@10 = 0.0558
+Evaluation Time: 153.55 seconds
+Epoch 10 Steps 625 Loss 0.288511 [67.10 seconds]
+Epoch 11 Steps 625 Loss 0.286983 [62.03 seconds]
+Epoch 12 Steps 625 Loss 0.285640 [61.66 seconds]
+Epoch 13 Steps 625 Loss 0.283501 [61.68 seconds]
+Epoch 14 Steps 625 Loss 0.281912 [61.77 seconds]
+Item Pred: P@1 = 0.3040, R@1 = 0.0205, NDCG@1 = 0.3040, MRR@1 = 0.0205
+Item Pred: P@5 = 0.2422, R@5 = 0.0825, NDCG@5 = 0.4867, MRR@5 = 0.0415
+Item Pred: P@10 = 0.2094, R@10 = 0.1390, NDCG@10 = 0.5250, MRR@10 = 0.0489
+Evaluation Time: 152.64 seconds
+Epoch 15 Steps 625 Loss 0.279985 [66.64 seconds]
+Epoch 16 Steps 625 Loss 0.278981 [62.03 seconds]
+Epoch 17 Steps 625 Loss 0.277559 [62.36 seconds]
+Epoch 18 Steps 625 Loss 0.275527 [62.23 seconds]
+Epoch 19 Steps 625 Loss 0.273291 [60.57 seconds]
+Item Pred: P@1 = 0.3203, R@1 = 0.0218, NDCG@1 = 0.3203, MRR@1 = 0.0218
+Item Pred: P@5 = 0.2468, R@5 = 0.0807, NDCG@5 = 0.4867, MRR@5 = 0.0411
+Item Pred: P@10 = 0.2113, R@10 = 0.1370, NDCG@10 = 0.5201, MRR@10 = 0.0485
+Evaluation Time: 151.12 seconds
+Epoch 20 Steps 625 Loss 0.272086 [66.51 seconds]
+Epoch 21 Steps 625 Loss 0.269659 [59.96 seconds]
+Epoch 22 Steps 625 Loss 0.268113 [60.68 seconds]
+Epoch 23 Steps 625 Loss 0.267344 [61.73 seconds]
+Epoch 24 Steps 625 Loss 0.265621 [60.29 seconds]
+Item Pred: P@1 = 0.2921, R@1 = 0.0183, NDCG@1 = 0.2921, MRR@1 = 0.0183
+Item Pred: P@5 = 0.2433, R@5 = 0.0794, NDCG@5 = 0.4779, MRR@5 = 0.0388
+Item Pred: P@10 = 0.2163, R@10 = 0.1389, NDCG@10 = 0.5173, MRR@10 = 0.0466
+Evaluation Time: 154.17 seconds
+Epoch 25 Steps 625 Loss 0.263539 [66.79 seconds]
+Epoch 26 Steps 625 Loss 0.261713 [60.36 seconds]
+Epoch 27 Steps 625 Loss 0.260477 [60.24 seconds]
+Epoch 28 Steps 625 Loss 0.258326 [59.54 seconds]
+Epoch 29 Steps 625 Loss 0.254986 [60.45 seconds]
+Item Pred: P@1 = 0.2953, R@1 = 0.0207, NDCG@1 = 0.2953, MRR@1 = 0.0207
+Item Pred: P@5 = 0.2408, R@5 = 0.0807, NDCG@5 = 0.4864, MRR@5 = 0.0403
+Item Pred: P@10 = 0.2125, R@10 = 0.1406, NDCG@10 = 0.5187, MRR@10 = 0.0481
+Evaluation Time: 153.59 seconds
+Total Time 3064.03 seconds, Train Time 1891.96 seconds, Evaluation Time 1080.16 seconds
+Best Results for Item Pred: P@1 = 0.3267, R@1 = 0.0247, NDCG@1 = 0.3267, MRR@1 = 0.0247
+Best Results for Item Pred: P@5 = 0.2845, R@5 = 0.0965, NDCG@5 = 0.5305, MRR@5 = 0.0480
+Best Results for Item Pred: P@10 = 0.2597, R@10 = 0.1635, NDCG@10 = 0.5608, MRR@10 = 0.0567
+
+
+
+
+
+全采样+lstm
+[Setting] device: cuda
+[Setting] processes for evaluation 4 
+[Setting] latent_dim: 128
+[Setting] att_size: 128
+[Setting] learning_rate: 0.001000
+[Setting] regularization: 0.000100
+[Setting] train_batch_size: 128
+[Setting] test_batch_size: 1
+[Setting] negative_num: 4
+Read data from D:\Fuck\Recommendation_System\Code\ownResearch\myMcRec2/Data/Movielens/
+node type {'m': 0, 'u': 1, 'g': 2}
+max_user_id 943, max_item_id 1681, train ratings 80000
+test ratings 943, test negative rating lists 943, maximum test item number for one rating 1666
+load data 96.62 seconds
+Init: Item Pred: P@1 = 0.0170, R@1 = 0.0013, NDCG@1 = 0.0170, MRR@1 = 0.0013
+Init: Item Pred: P@5 = 0.0153, R@5 = 0.0050, NDCG@5 = 0.0445, MRR@5 = 0.0026
+Init: Item Pred: P@10 = 0.0146, R@10 = 0.0093, NDCG@10 = 0.0642, MRR@10 = 0.0031
+Evaluation Time: 925.54 seconds
+Epoch 0 Steps 625 Loss 0.353501 [68.67 seconds]
+Epoch 1 Steps 625 Loss 0.332335 [65.99 seconds]
+Epoch 2 Steps 625 Loss 0.328850 [70.08 seconds]
+Epoch 3 Steps 625 Loss 0.327682 [71.90 seconds]
+Epoch 4 Steps 625 Loss 0.326488 [67.79 seconds]
+Item Pred: P@1 = 0.2948, R@1 = 0.0192, NDCG@1 = 0.2948, MRR@1 = 0.0192
+Item Pred: P@5 = 0.2577, R@5 = 0.0795, NDCG@5 = 0.4754, MRR@5 = 0.0388
+Item Pred: P@10 = 0.2354, R@10 = 0.1443, NDCG@10 = 0.5203, MRR@10 = 0.0473
+Evaluation Time: 886.01 seconds
+Epoch 5 Steps 625 Loss 0.325445 [64.44 seconds]
+Epoch 6 Steps 625 Loss 0.324615 [65.43 seconds]
+Epoch 7 Steps 625 Loss 0.321413 [65.03 seconds]
+Epoch 8 Steps 625 Loss 0.309921 [65.32 seconds]
+Epoch 9 Steps 625 Loss 0.304663 [64.34 seconds]
+Item Pred: P@1 = 0.3934, R@1 = 0.0271, NDCG@1 = 0.3934, MRR@1 = 0.0271
+Item Pred: P@5 = 0.3311, R@5 = 0.1170, NDCG@5 = 0.5931, MRR@5 = 0.0571
+Item Pred: P@10 = 0.2835, R@10 = 0.1899, NDCG@10 = 0.6118, MRR@10 = 0.0666
+Evaluation Time: 866.71 seconds
+Epoch 10 Steps 625 Loss 0.303041 [64.74 seconds]
+Epoch 11 Steps 625 Loss 0.300882 [64.49 seconds]
+Epoch 12 Steps 625 Loss 0.299828 [63.21 seconds]
+Epoch 13 Steps 625 Loss 0.297848 [63.10 seconds]
+Epoch 14 Steps 625 Loss 0.297271 [64.79 seconds]
+Item Pred: P@1 = 0.4062, R@1 = 0.0306, NDCG@1 = 0.4062, MRR@1 = 0.0306
+Item Pred: P@5 = 0.3319, R@5 = 0.1155, NDCG@5 = 0.6019, MRR@5 = 0.0592
+Item Pred: P@10 = 0.2838, R@10 = 0.1891, NDCG@10 = 0.6238, MRR@10 = 0.0689
+Evaluation Time: 842.12 seconds
+Epoch 15 Steps 625 Loss 0.296426 [64.65 seconds]
+Epoch 16 Steps 625 Loss 0.295959 [64.38 seconds]
+Epoch 17 Steps 625 Loss 0.295043 [64.37 seconds]
+Epoch 18 Steps 625 Loss 0.294408 [64.31 seconds]
+Epoch 19 Steps 625 Loss 0.293506 [64.42 seconds]
+Item Pred: P@1 = 0.4401, R@1 = 0.0323, NDCG@1 = 0.4401, MRR@1 = 0.0323
+Item Pred: P@5 = 0.3404, R@5 = 0.1199, NDCG@5 = 0.6279, MRR@5 = 0.0620
+Item Pred: P@10 = 0.2941, R@10 = 0.1972, NDCG@10 = 0.6423, MRR@10 = 0.0721
+Evaluation Time: 855.64 seconds
+Epoch 20 Steps 625 Loss 0.293216 [64.28 seconds]
+Epoch 21 Steps 625 Loss 0.291490 [64.14 seconds]
+Epoch 22 Steps 625 Loss 0.290812 [64.37 seconds]
+Epoch 23 Steps 625 Loss 0.290109 [64.39 seconds]
+Epoch 24 Steps 625 Loss 0.288875 [64.40 seconds]
+Item Pred: P@1 = 0.4274, R@1 = 0.0315, NDCG@1 = 0.4274, MRR@1 = 0.0315
+Item Pred: P@5 = 0.3495, R@5 = 0.1220, NDCG@5 = 0.6156, MRR@5 = 0.0619
+Item Pred: P@10 = 0.2979, R@10 = 0.2001, NDCG@10 = 0.6362, MRR@10 = 0.0721
+Evaluation Time: 855.74 seconds
+Epoch 25 Steps 625 Loss 0.288263 [62.99 seconds]
+Epoch 26 Steps 625 Loss 0.286405 [63.09 seconds]
+Epoch 27 Steps 625 Loss 0.285626 [62.81 seconds]
+Epoch 28 Steps 625 Loss 0.284871 [62.88 seconds]
+Epoch 29 Steps 625 Loss 0.283664 [62.92 seconds]
+Item Pred: P@1 = 0.4178, R@1 = 0.0311, NDCG@1 = 0.4178, MRR@1 = 0.0311
+Item Pred: P@5 = 0.3444, R@5 = 0.1189, NDCG@5 = 0.6087, MRR@5 = 0.0607
+Item Pred: P@10 = 0.2943, R@10 = 0.1958, NDCG@10 = 0.6325, MRR@10 = 0.0707
+Evaluation Time: 846.98 seconds
+Total Time 8127.07 seconds, Train Time 1951.67 seconds, Evaluation Time 6078.75 seconds
+Best Results for Item Pred: P@1 = 0.4401, R@1 = 0.0323, NDCG@1 = 0.4401, MRR@1 = 0.0323
+Best Results for Item Pred: P@5 = 0.3495, R@5 = 0.1220, NDCG@5 = 0.6279, MRR@5 = 0.0620
+Best Results for Item Pred: P@10 = 0.2979, R@10 = 0.2001, NDCG@10 = 0.6423, MRR@10 = 0.0721
+
+
+全采样+lstm+预训练embedding
+[Setting] device: cuda
+[Setting] processes for evaluation 4
+[Setting] latent_dim: 128
+[Setting] att_size: 128
+[Setting] learning_rate: 0.001000
+[Setting] regularization: 0.000100
+[Setting] train_batch_size: 128
+[Setting] test_batch_size: 1
+[Setting] negative_num: 4
+Read data from D:\Fuck\Recommendation_System\Code\ownResearch\myMcRec2/Data/Movielens/
+node type {'m': 0, 'g': 1, 'u': 2}
+max_user_id 943, max_item_id 1681, train ratings 80000
+test ratings 943, test negative rating lists 943, maximum test item number for one rating 1666
+load data 96.19 seconds
+D:\Anaconda3\envs\pytorch\lib\site-packages\torch\nn\functional.py:652: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  ..\c10/core/TensorImpl.h:1156.)
+  return torch.max_pool1d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Init: Item Pred: P@1 = 0.0530, R@1 = 0.0046, NDCG@1 = 0.0530, MRR@1 = 0.0046
+Init: Item Pred: P@5 = 0.0460, R@5 = 0.0167, NDCG@5 = 0.1180, MRR@5 = 0.0085
+Init: Item Pred: P@10 = 0.0426, R@10 = 0.0298, NDCG@10 = 0.1527, MRR@10 = 0.0102
+Evaluation Time: 924.78 seconds
+Epoch 0 Steps 625 Loss 0.345305 [74.47 seconds]
+Epoch 1 Steps 625 Loss 0.309281 [69.67 seconds]
+Epoch 2 Steps 625 Loss 0.302248 [68.53 seconds]
+Epoch 3 Steps 625 Loss 0.299064 [68.62 seconds]
+Epoch 4 Steps 625 Loss 0.294940 [68.33 seconds]
+Item Pred: P@1 = 0.4199, R@1 = 0.0315, NDCG@1 = 0.4199, MRR@1 = 0.0315
+Item Pred: P@5 = 0.3313, R@5 = 0.1121, NDCG@5 = 0.6010, MRR@5 = 0.0587
+Item Pred: P@10 = 0.2830, R@10 = 0.1807, NDCG@10 = 0.6240, MRR@10 = 0.0677
+Evaluation Time: 955.04 seconds
+Epoch 5 Steps 625 Loss 0.290630 [72.61 seconds]
+Epoch 6 Steps 625 Loss 0.286983 [69.58 seconds]
+Epoch 7 Steps 625 Loss 0.284825 [69.13 seconds]
+Epoch 8 Steps 625 Loss 0.282868 [68.57 seconds]
+Epoch 9 Steps 625 Loss 0.280565 [69.17 seconds]
+Item Pred: P@1 = 0.3871, R@1 = 0.0285, NDCG@1 = 0.3871, MRR@1 = 0.0285
+Item Pred: P@5 = 0.3300, R@5 = 0.1143, NDCG@5 = 0.5938, MRR@5 = 0.0573
+Item Pred: P@10 = 0.2857, R@10 = 0.1899, NDCG@10 = 0.6178, MRR@10 = 0.0672
+Evaluation Time: 921.08 seconds
+Epoch 10 Steps 625 Loss 0.277186 [74.81 seconds]
+Epoch 11 Steps 625 Loss 0.275300 [72.24 seconds]
+Epoch 12 Steps 625 Loss 0.272817 [70.07 seconds]
+Epoch 13 Steps 625 Loss 0.270538 [69.71 seconds]
+Epoch 14 Steps 625 Loss 0.268609 [68.95 seconds]
+Item Pred: P@1 = 0.4083, R@1 = 0.0312, NDCG@1 = 0.4083, MRR@1 = 0.0312
+Item Pred: P@5 = 0.3343, R@5 = 0.1180, NDCG@5 = 0.5983, MRR@5 = 0.0601
+Item Pred: P@10 = 0.2872, R@10 = 0.1915, NDCG@10 = 0.6252, MRR@10 = 0.0697
+Evaluation Time: 917.05 seconds
+Epoch 15 Steps 625 Loss 0.266651 [73.11 seconds]
+Epoch 16 Steps 625 Loss 0.265105 [71.28 seconds]
+Epoch 17 Steps 625 Loss 0.261625 [71.17 seconds]
+Epoch 18 Steps 625 Loss 0.259243 [70.07 seconds]
+Epoch 19 Steps 625 Loss 0.258348 [71.40 seconds]
+Item Pred: P@1 = 0.3977, R@1 = 0.0301, NDCG@1 = 0.3977, MRR@1 = 0.0301
+Item Pred: P@5 = 0.3239, R@5 = 0.1167, NDCG@5 = 0.5989, MRR@5 = 0.0590
+Item Pred: P@10 = 0.2814, R@10 = 0.1882, NDCG@10 = 0.6177, MRR@10 = 0.0684
+Evaluation Time: 900.18 seconds
+Epoch 20 Steps 625 Loss 0.255900 [79.84 seconds]
+Epoch 21 Steps 625 Loss 0.254883 [72.24 seconds]
+Epoch 22 Steps 625 Loss 0.252949 [70.90 seconds]
+Epoch 23 Steps 625 Loss 0.250291 [70.39 seconds]
+Epoch 24 Steps 625 Loss 0.248708 [69.74 seconds]
+Item Pred: P@1 = 0.4136, R@1 = 0.0316, NDCG@1 = 0.4136, MRR@1 = 0.0316
+Item Pred: P@5 = 0.3304, R@5 = 0.1162, NDCG@5 = 0.6092, MRR@5 = 0.0601
+Item Pred: P@10 = 0.2830, R@10 = 0.1903, NDCG@10 = 0.6306, MRR@10 = 0.0699
+Evaluation Time: 885.78 seconds
+Epoch 25 Steps 625 Loss 0.248155 [71.49 seconds]
+Epoch 26 Steps 625 Loss 0.246271 [69.41 seconds]
+Epoch 27 Steps 625 Loss 0.243976 [69.24 seconds]
+Epoch 28 Steps 625 Loss 0.242677 [70.54 seconds]
+Epoch 29 Steps 625 Loss 0.240451 [69.18 seconds]
+Item Pred: P@1 = 0.4019, R@1 = 0.0323, NDCG@1 = 0.4019, MRR@1 = 0.0323
+Item Pred: P@5 = 0.3241, R@5 = 0.1178, NDCG@5 = 0.5949, MRR@5 = 0.0610
+Item Pred: P@10 = 0.2821, R@10 = 0.1932, NDCG@10 = 0.6216, MRR@10 = 0.0709
+Evaluation Time: 885.09 seconds
+Total Time 8614.27 seconds, Train Time 2129.03 seconds, Evaluation Time 6388.99 seconds
+Best Results for Item Pred: P@1 = 0.4199, R@1 = 0.0323, NDCG@1 = 0.4199, MRR@1 = 0.0323
+Best Results for Item Pred: P@5 = 0.3343, R@5 = 0.1180, NDCG@5 = 0.6092, MRR@5 = 0.0610
+Best Results for Item Pred: P@10 = 0.2872, R@10 = 0.1932, NDCG@10 = 0.6306, MRR@10 = 0.0709
